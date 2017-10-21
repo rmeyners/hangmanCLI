@@ -12,8 +12,8 @@ var Word = function(words){
 	};
 	
 	this.findWord = function() {
-		this.found = this.lets.every(function(curLet) {
-			return curLet.appear;
+		this.found = this.lets.every(function(currentLetter) {
+			return currentLetter.appear;
 		});
 		return this.found;
 	};
