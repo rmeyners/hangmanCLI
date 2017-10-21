@@ -4,7 +4,7 @@ var Letter = function(let) {
 	
 	this.appear = false;
 
-	this.letterRender = function() {
+	this.renderLetter = function() {
 		return !(this.appear) ? " _ " : this.charac;
 	};
 };
